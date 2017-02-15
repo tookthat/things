@@ -1,0 +1,63 @@
+.ng {
+width:340px;
+margin:20px auto;
+position:relative;
+}
+
+.ngl {
+width:340px;
+line-height:20px;
+padding:20px;
+background:#93E1D8;
+letter-spacing:1px;
+font-size:20px;
+font-family:'Montserrat', sans serif; 
+text-transform:uppercase;
+color:#252525;
+text-align:center;
+font-weight:bold;
+}
+
+.ngl span {
+font-family:'Roboto', sans serif; 
+font-weight:normal;
+line-height:11px;
+font-size:11px;
+display:block;
+letter-spacing:1px;
+text-transform:lowercase;
+opacity:0.8;
+}
+
+.three {
+width:360px; 
+position:relative; 
+}
+
+.three img {
+width:100px;
+height:100px;
+margin-right:20px;
+margin-bottom:20px;
+}
+
+.one {
+width:340px;
+}
+
+.one img {
+width:340px; 
+margin-bottom:20px; 
+display:block;
+}
+
+.two {
+width:360px;
+position:relative;
+}
+
+.two img {
+width:160px;
+margin-right:20px;
+margin-bottom:20px;
+}
