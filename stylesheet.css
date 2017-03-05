@@ -1,0 +1,60 @@
+.giggsy { 
+background-color: #242f26; float:right; 
+height: 1px; 
+width: 10px; 
+position:absolute; 
+right:15px; 
+opacity:0; 
+bottom:27px; 
+-webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out; -ms-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out; 
+} 
+.gnev { 
+overflow: hidden; 
+text-align: left; 
+text-transform:uppercase; 
+font-family:arial; 
+background-color: #242f26; 
+position:absolute; 
+bottom:20px; 
+right:35px; 
+color:white; 
+height:15px; 
+line-height:16px; 
+opacity:0; 
+padding:0px 3px; 
+font-size:9px; 
+letter-spacing:2px; 
+-webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out; -ms-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out; 
+
+} 
+
+.fizzer { 
+height:15px; 
+width:15px; 
+background-color:white; 
+position:absolute; 
+bottom:20px; 
+right:20px; 
+line-height:16px; 
+text-align:center; 
+color: #242f26; 
+font-weight:700; 
+font-size:9px; 
+font-family:arial; 
+-webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out; -ms-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out; 
+} 
+
+
+.scholesy:hover .fizzer { 
+background-color: #242f26; 
+} 
+
+.scholesy:hover .gnev {opacity:1; 
+right:45px; 
+
+
+} 
+
+.scholesy:hover .giggsy { right:35px; 
+opacity:1; 
+} 
