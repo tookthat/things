@@ -1,0 +1,14 @@
+ .terra {cursor:pointer;}
+    .nova {width:24px; height:24px; overflow:hidden; position:absolute; bottom:0; right:0; margin-bottom:20px; margin-right:20px; }
+    .atch {position:absolute; transition:0.4s; transition-delay:0.1s; color:var(--atch); opacity:1;}
+    .teddy {position:absolute; transition:0.4s;margin-left:-25px; margin-top:25px; transition-delay:0.1s;  color:var(--ted); opacity:0;}
+    .terra:hover .atch {margin-left:25px; margin-top:-25px; transition-delay:0s; opacity:0;}
+    .terra:hover .teddy {margin-left:0px; margin-top:0px; opacity:1;}
+    .scott {font-family:monospace; text-transform:uppercase;letter-spacing:1px; font-size:13px; position:absolute;margin-bottom:19px;margin-right:47px;bottom:0;right:0;line-height:13px; color:#0000;
+  background: 
+    linear-gradient(90deg,var(--scott1) 50%,var(--scott2) 0) 
+    var(--h,0%)/200% no-repeat;
+  -webkit-background-clip: text;
+          background-clip: text;
+  transition: 0.4s; transition-delay:0s;}
+    .terra:hover .scott {  --h: 100%; transition-delay:0.2s;}
